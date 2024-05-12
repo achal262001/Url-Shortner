@@ -38,6 +38,7 @@ app.get("/:shortUrl", async (req, res) => {
   res.redirect(shortUrl.full);
 });
 
+// its new comment, it's for my practice
 app.listen(process.env.Port || 5000, () => {
   console.log("server listing at 5000");
 });
