@@ -1,11 +1,20 @@
 const express = require("express");
-const { MongoClient } = require("mongodb");
 const mongoose = require("mongoose");
-const ShortUrl = require("C:\\Users\\achal\\OneDrive\\Desktop\\6th SEM\\url\\Url Shortner\\models\\shortUrl.js");
+const ShortUrl = require("./models/shortUrl");
 const app = express();
+const local_url = "mongodb://127.0.0.1:27017/achal";
+const global_url =
+  "mongodb+srv://AchalKokatanoor:Achal2001@dental-website.7fmchbg.mongodb.net/";
+mongoose.connect(global_url, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
-mongoose.connect("mongodb://127.0.0.1:27017/achal");
+const db = mongoose.connection;
 
+db.on("connected", () => {
+  console.log("connected");
+});
 app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
 
@@ -30,5 +39,5 @@ app.get("/:shortUrl", async (req, res) => {
 });
 
 app.listen(process.env.Port || 5000, () => {
-  console.log("Hi");
+  console.log("server listing at 5000");
 });

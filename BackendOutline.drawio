@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" modified="2024-04-30T04:32:52.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="yskaLgiWpgl8EMSvG2Z8" version="24.3.1" type="device">
+  <diagram name="Page-1" id="YjoD58d1AnbtpfYFv--1">
+    <mxGraphModel dx="607" dy="324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="90" as="sourcePoint" />
+            <mxPoint x="320" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-7" value="Sign Up" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-8" value="Log In" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-12" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-14" value="User" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ih8q43Hp9_ryicrtso7I-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="390" as="sourcePoint" />
+            <mxPoint x="320" y="1002.1818403764205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="400" as="sourcePoint" />
+            <mxPoint x="530" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="644.5" as="sourcePoint" />
+            <mxPoint x="520" y="644.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="919.55" as="sourcePoint" />
+            <mxPoint x="520" y="919.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-22" value="Normal User" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="890" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="840" width="40" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-25" value="Doctors/&lt;div&gt;Patients&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ih8q43Hp9_ryicrtso7I-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-26" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="570" width="40" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-27" value="Num of Doctors&lt;div&gt;GET:&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="560" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-28" value="Num of Patients&lt;div&gt;GET:&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="710" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-31" value="Practicing Students&lt;div&gt;GET:&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="600" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="660" as="sourcePoint" />
+            <mxPoint x="560" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="610" as="sourcePoint" />
+            <mxPoint x="560" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-36" value="Which Doc is Assign with Which Patients GET:&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="650" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-37" value="Can&#39;t Change" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-39" value="Num of Doctors&lt;div&gt;GET:&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="830" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-40" value="Practicing Students&lt;div&gt;GET:&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="880" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-41" value="Which Doc is Assign with Which Patients GET:&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="930" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-42" value="Num of Patients&lt;div&gt;GET:&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1030" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-45" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="770" as="sourcePoint" />
+            <mxPoint x="560" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ih8q43Hp9_ryicrtso7I-46" value="Info about Hospital" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
