@@ -5,10 +5,7 @@ const app = express();
 const local_url = "mongodb://127.0.0.1:27017/achal";
 const global_url =
   "mongodb+srv://AchalKokatanoor:Achal2001@dental-website.7fmchbg.mongodb.net/";
-mongoose.connect(global_url, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(global_url);
 
 const db = mongoose.connection;
 
