@@ -1,10 +1,11 @@
+require("dotenv").config();
+
 const express = require("express");
 const mongoose = require("mongoose");
 const ShortUrl = require("./models/shortUrl");
 const app = express();
-const local_url = "mongodb://127.0.0.1:27017/achal";
-const global_url =
-  "mongodb+srv://AchalKokatanoor:Achal2001@dental-website.7fmchbg.mongodb.net/";
+const local_url = process.env.LOCAL_DATABASE_URL;
+const global_url = process.env.GLOBAL_DATABASE_URL;
 mongoose.connect(global_url);
 
 const db = mongoose.connection;
