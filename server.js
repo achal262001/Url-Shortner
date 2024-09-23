@@ -37,6 +37,6 @@ app.get("/:shortUrl", async (req, res) => {
 });
 
 // its new comment, it's for my practice
-app.listen(process.env.Port || 5000, () => {
-  console.log("server listing at 5000");
+app.listen(process.env.PORT || 5000, () => {
+  console.log("server listing at", process.env.PORT);
 });
